@@ -369,11 +369,12 @@
 }
 
 @media (width >= 768px) {
-  .gallery__container  {
+  .gallery__container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-auto-flow: dense;
   }
+  
   .gallery__item:first-of-type {
     grid-column: 1 / 3;
     grid-row: 1;
